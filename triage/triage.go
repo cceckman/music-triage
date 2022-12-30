@@ -19,8 +19,8 @@ import (
 // The default template for file locations.
 const DefaultTemplate = "{{ .AlbumOrTrackArtist }}/{{ .Album }}/{{ if gt .Discs 1 }}{{ .ZeroDisc }}-{{ end }}{{ .ZeroTrack }}.{{ .Extension }}"
 
-// TODO: Unzip archives before triaging
-// TODO: Support "artist override" special tag, to be used in preference to AlbumArtist / TrackArtist
+// TODO(#5): Unzip archives before triaging
+// TODO(#6): Support "artist override" special tag, to be used in preference to AlbumArtist / TrackArtist
 
 // Settings for the music triager;
 // these correspond to the flags in the main binary.

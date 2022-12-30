@@ -50,7 +50,7 @@ var (
 
 	quarantine = flag.String("quarantine", "", "directory to put invalid files into")
 
-	// TODO: Support -handleDrm. It looks like `tag` isn't picking up M4P?
+	// TODO(#1): Support -handleDrm. It looks like `tag` isn't picking up M4P?
 	// handleDrm  = flag.Bool("handleDrm", true, "whether DRM-protected files should be placed in -library; if false, DRMed files are placed into -quarantine instead")
 )
 
